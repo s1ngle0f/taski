@@ -9,6 +9,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['81.94.156.62', '127.0.0.1', 'localhost']
 
+STATIC_URL = '/static_backend/'
+
+STATIC_ROOT = BASE_DIR / 'static_backend'
 
 # Application definition
 
